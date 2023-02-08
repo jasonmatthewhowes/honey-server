@@ -8,9 +8,19 @@
     "method": "GET",
     "sortNum": 0,
     "created": "2023-02-07T21:28:48.318Z",
-    "modified": "2023-02-07T21:28:48.318Z",
-    "headers": [],
+    "modified": "2023-02-08T15:13:56.413Z",
+    "headers": [
+      {
+        "name": "Authorization",
+        "value": "Token cc6beeaf3af8a17e8dcd4c38b80d1a60cc8e1255"
+      }
+    ],
     "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n    \"email\": \"dude@dude.com\",\n    \"first_name\": \"MyFirstName\",\n    \"last_name\": \"MyLastName\",\n    \"password\": \"django\",\n    \"address\": \"404 Unknown Route\",\n    \"account_type\": \"customer\"\n}",
+      "form": []
+    },
     "tests": []
   },
   {
@@ -42,6 +52,78 @@
     "sortNum": 0,
     "created": "2023-02-07T21:32:37.238Z",
     "modified": "2023-02-07T21:32:37.238Z",
+    "headers": [
+      {
+        "name": "Authorization",
+        "value": "Token cc6beeaf3af8a17e8dcd4c38b80d1a60cc8e1255"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n    \"email\": \"dude@dude.com\",\n    \"first_name\": \"MyFirstName\",\n    \"last_name\": \"MyLastName\",\n    \"password\": \"django\",\n    \"address\": \"404 Unknown Route\",\n    \"account_type\": \"customer\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "61ecfa46-4eb0-470f-8efd-1ac634b45bc2",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:8000/employees/2",
+    "url": "http://localhost:8000/employees/2",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2023-02-08T15:13:58.888Z",
+    "modified": "2023-02-08T15:13:58.888Z",
+    "headers": [
+      {
+        "name": "Authorization",
+        "value": "Token cc6beeaf3af8a17e8dcd4c38b80d1a60cc8e1255"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n    \"email\": \"dude@dude.com\",\n    \"first_name\": \"MyFirstName\",\n    \"last_name\": \"MyLastName\",\n    \"password\": \"django\",\n    \"address\": \"404 Unknown Route\",\n    \"account_type\": \"customer\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "b6833aa4-492d-4c42-8428-802bd0dce3d6",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:8000/tickets",
+    "url": "http://localhost:8000/tickets",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2023-02-08T15:14:05.137Z",
+    "modified": "2023-02-08T15:16:57.872Z",
+    "headers": [
+      {
+        "name": "Authorization",
+        "value": "Token d74b97fbe905134520bb236b0016703f50380dcf"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n    \"email\": \"dude@dude.com\",\n    \"first_name\": \"MyFirstName\",\n    \"last_name\": \"MyLastName\",\n    \"password\": \"django\",\n    \"address\": \"404 Unknown Route\",\n    \"account_type\": \"customer\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "7ce19ff6-0c2d-4361-9a88-c18918e73b3d",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:8000/ticket",
+    "url": "http://localhost:8000/ticket",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2023-02-08T15:14:07.254Z",
+    "modified": "2023-02-08T15:14:07.254Z",
     "headers": [
       {
         "name": "Authorization",
