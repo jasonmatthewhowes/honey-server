@@ -1,187 +1,57 @@
 [
   {
-    "_id": "8090f60d-6b57-4595-ac66-e95f8e6e341f",
-    "colId": "history",
-    "containerId": "",
-    "name": "http://localhost:8000/register",
-    "url": "http://localhost:8000/register",
-    "method": "POST",
-    "sortNum": 0,
-    "created": "2023-02-06T21:10:51.895Z",
-    "modified": "2023-02-06T21:10:51.895Z",
-    "headers": [],
-    "params": [],
-    "body": {
-      "type": "json",
-      "raw": "{\n    \"email\": \"jasonmatthewhowes@gmail.com\",\n    \"first_name\": \"Jason\",\n    \"last_name\": \"Howes\",\n    \"password\": \"django\",\n    \"address\": \"510 Waycross Drive\",\n    \"account_type\": \"customer\"\n}",
-      "form": []
-    },
-    "tests": []
-  },
-  {
-    "_id": "8b379c40-a328-45a8-8a0f-39a577dd0ffd",
-    "colId": "history",
-    "containerId": "",
-    "name": "http://localhost:8000/customers",
-    "url": "http://localhost:8000/customers",
-    "method": "GET",
-    "sortNum": 0,
-    "created": "2023-02-07T17:12:46.915Z",
-    "modified": "2023-02-07T17:12:46.915Z",
-    "headers": [
-      {
-        "name": "Authorization",
-        "value": "Token 8b44b69d17de6e7e81bede339e8fd997369f8819"
-      }
-    ],
-    "params": [],
-    "body": {
-      "type": "json",
-      "raw": "{\n    \"email\": \"jasonmatthewhowes@gmail.com\",\n    \"first_name\": \"Jason\",\n    \"last_name\": \"Howes\",\n    \"password\": \"django\",\n    \"address\": \"510 Waycross Drive\",\n    \"account_type\": \"customer\"\n}",
-      "form": []
-    },
-    "tests": []
-  },
-  {
-    "_id": "e389ed2f-9e20-47a8-a82e-d06cda9cb5b2",
-    "colId": "history",
-    "containerId": "",
-    "name": "http://localhost:8000/customers/1",
-    "url": "http://localhost:8000/customers/1",
-    "method": "GET",
-    "sortNum": 0,
-    "created": "2023-02-07T17:20:32.735Z",
-    "modified": "2023-02-07T17:20:32.735Z",
-    "headers": [
-      {
-        "name": "Authorization",
-        "value": "Token 8b44b69d17de6e7e81bede339e8fd997369f8819"
-      }
-    ],
-    "params": [],
-    "body": {
-      "type": "json",
-      "raw": "{\n    \"email\": \"jasonmatthewhowes@gmail.com\",\n    \"first_name\": \"Jason\",\n    \"last_name\": \"Howes\",\n    \"password\": \"django\",\n    \"address\": \"510 Waycross Drive\",\n    \"account_type\": \"customer\"\n}",
-      "form": []
-    },
-    "tests": []
-  },
-  {
-    "_id": "fc2cb48a-7cc7-48ec-94dd-2a8683dd8df5",
+    "_id": "466b915a-b750-4630-a3f2-19b04b12e678",
     "colId": "history",
     "containerId": "",
     "name": "http://localhost:8000/employees",
     "url": "http://localhost:8000/employees",
     "method": "GET",
     "sortNum": 0,
-    "created": "2023-02-07T17:42:42.365Z",
-    "modified": "2023-02-07T17:42:42.365Z",
-    "headers": [
-      {
-        "name": "Authorization",
-        "value": "Token 8b44b69d17de6e7e81bede339e8fd997369f8819"
-      }
-    ],
+    "created": "2023-02-07T21:28:48.318Z",
+    "modified": "2023-02-07T21:28:48.318Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "5b46ef99-c8ea-4915-824a-ba76cb59398a",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:8000/register",
+    "url": "http://localhost:8000/register",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2023-02-07T21:31:24.280Z",
+    "modified": "2023-02-07T21:31:24.280Z",
+    "headers": [],
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n    \"email\": \"jasonmatthewhowes@gmail.com\",\n    \"first_name\": \"Jason\",\n    \"last_name\": \"Howes\",\n    \"password\": \"django\",\n    \"address\": \"510 Waycross Drive\",\n    \"account_type\": \"customer\"\n}",
+      "raw": "{\n    \"email\": \"dude@dude.com\",\n    \"first_name\": \"MyFirstName\",\n    \"last_name\": \"MyLastName\",\n    \"password\": \"django\",\n    \"address\": \"404 Unknown Route\",\n    \"account_type\": \"customer\"\n}",
       "form": []
     },
     "tests": []
   },
   {
-    "_id": "0954d6a8-f454-49ff-bb29-6b7b9076b44d",
+    "_id": "5810fe3f-f79d-49d1-a700-b6bfd2b11302",
     "colId": "history",
     "containerId": "",
-    "name": "http://localhost:8000/employees/2",
-    "url": "http://localhost:8000/employees/2",
+    "name": "http://localhost:8000/customers",
+    "url": "http://localhost:8000/customers",
     "method": "GET",
     "sortNum": 0,
-    "created": "2023-02-07T17:42:50.691Z",
-    "modified": "2023-02-07T17:42:50.691Z",
+    "created": "2023-02-07T21:32:37.238Z",
+    "modified": "2023-02-07T21:32:37.238Z",
     "headers": [
       {
         "name": "Authorization",
-        "value": "Token 8b44b69d17de6e7e81bede339e8fd997369f8819"
+        "value": "Token cc6beeaf3af8a17e8dcd4c38b80d1a60cc8e1255"
       }
     ],
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n    \"email\": \"jasonmatthewhowes@gmail.com\",\n    \"first_name\": \"Jason\",\n    \"last_name\": \"Howes\",\n    \"password\": \"django\",\n    \"address\": \"510 Waycross Drive\",\n    \"account_type\": \"customer\"\n}",
-      "form": []
-    },
-    "tests": []
-  },
-  {
-    "_id": "44e0dd0d-abe0-4435-8b1b-78373cab0e05",
-    "colId": "history",
-    "containerId": "",
-    "name": "http://localhost:8000/tickets",
-    "url": "http://localhost:8000/tickets",
-    "method": "GET",
-    "sortNum": 0,
-    "created": "2023-02-07T19:13:33.328Z",
-    "modified": "2023-02-07T19:13:33.328Z",
-    "headers": [
-      {
-        "name": "Authorization",
-        "value": "Token 8b44b69d17de6e7e81bede339e8fd997369f8819"
-      }
-    ],
-    "params": [],
-    "body": {
-      "type": "json",
-      "raw": "{\n    \"email\": \"jasonmatthewhowes@gmail.com\",\n    \"first_name\": \"Jason\",\n    \"last_name\": \"Howes\",\n    \"password\": \"django\",\n    \"address\": \"510 Waycross Drive\",\n    \"account_type\": \"customer\"\n}",
-      "form": []
-    },
-    "tests": []
-  },
-  {
-    "_id": "968daf06-40df-44c8-b531-9c8736671dc8",
-    "colId": "history",
-    "containerId": "",
-    "name": "http://localhost:8000/tickets/2",
-    "url": "http://localhost:8000/tickets/2",
-    "method": "GET",
-    "sortNum": 0,
-    "created": "2023-02-07T19:13:38.470Z",
-    "modified": "2023-02-07T19:13:38.470Z",
-    "headers": [
-      {
-        "name": "Authorization",
-        "value": "Token 8b44b69d17de6e7e81bede339e8fd997369f8819"
-      }
-    ],
-    "params": [],
-    "body": {
-      "type": "json",
-      "raw": "{\n    \"email\": \"jasonmatthewhowes@gmail.com\",\n    \"first_name\": \"Jason\",\n    \"last_name\": \"Howes\",\n    \"password\": \"django\",\n    \"address\": \"510 Waycross Drive\",\n    \"account_type\": \"customer\"\n}",
-      "form": []
-    },
-    "tests": []
-  },
-  {
-    "_id": "ae3fb668-6c1e-48df-b044-75591af8b5a9",
-    "colId": "history",
-    "containerId": "",
-    "name": "http://localhost:8000/tickets/7",
-    "url": "http://localhost:8000/tickets/7",
-    "method": "GET",
-    "sortNum": 0,
-    "created": "2023-02-07T19:25:55.708Z",
-    "modified": "2023-02-07T19:25:55.708Z",
-    "headers": [
-      {
-        "name": "Authorization",
-        "value": "Token 8b44b69d17de6e7e81bede339e8fd997369f8819"
-      }
-    ],
-    "params": [],
-    "body": {
-      "type": "json",
-      "raw": "{\n    \"email\": \"jasonmatthewhowes@gmail.com\",\n    \"first_name\": \"Jason\",\n    \"last_name\": \"Howes\",\n    \"password\": \"django\",\n    \"address\": \"510 Waycross Drive\",\n    \"account_type\": \"customer\"\n}",
+      "raw": "{\n    \"email\": \"dude@dude.com\",\n    \"first_name\": \"MyFirstName\",\n    \"last_name\": \"MyLastName\",\n    \"password\": \"django\",\n    \"address\": \"404 Unknown Route\",\n    \"account_type\": \"customer\"\n}",
       "form": []
     },
     "tests": []
